@@ -69,12 +69,14 @@ export const SinglePostTemplate = ({
             <Content source={body} />
           </div>
 
+          {gallery && (
           <section className="SinglePost--Gallery">
             <div className="container">
               <h2>Our gallery component</h2>
               <Gallery images={gallery} />
             </div>
           </section>
+          )}
 
           <div className="SinglePost--Pagination">
             {prevPostURL && (
