@@ -9,11 +9,11 @@ categories:
   - category: Colours
 gallery:
   - alt: kk
-    image: /assets/5.jpg
-    title: fooo
+    image: /assets/animal-cavalry-equestrian-629139-1-.jpg
+    title: ''
   - alt: jk
     image: /assets/animal-equine-farm-635499.jpg
-    title: jjj
+    title: ''
 ---
 - - -
 
