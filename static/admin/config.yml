@@ -318,6 +318,7 @@ collections: # A list of collections the CMS should be able to edit
             valueField: 'title'
       - label: Gallery
         name: gallery
+        required: false
         widget: list
         fields:
           - { name: image, label: Image, widget: image }
