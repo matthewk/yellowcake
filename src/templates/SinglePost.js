@@ -14,10 +14,10 @@ export const SinglePostTemplate = ({
   title,
   date,
   body,
+  gallery,
   featuredImage,
   nextPostURL,
   prevPostURL,
-  gallery,
   categories = []
 }) => (
   <main>
