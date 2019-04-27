@@ -9,10 +9,7 @@ categories:
   - category: Colours
 gallery:
   - alt: kk
-    image: 'http://localhost:8888/assets/animal-cavalry-equestrian-629139-1-.jpg'
-    title: ''
-  - alt: jk
-    image: 'http://localhost:8888/assets/animal-equine-farm-635499.jpg'
+    image: /assets/4.jpg
     title: ''
 meta:
   description: This is a meta description.
