@@ -11,6 +11,10 @@ gallery:
   - alt: kk
     image: /assets/4.jpg
     title: ''
+  - alt: hoo
+    image: /assets/homebage-hero.jpg
+  - alt: lll
+    image: /assets/animals-cowboy-equine-159889.jpg
 meta:
   description: This is a meta description.
   title: Components Page
