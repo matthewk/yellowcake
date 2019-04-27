@@ -17,7 +17,7 @@ export const SinglePostTemplate = ({
   featuredImage,
   nextPostURL,
   prevPostURL,
-  galery = [],
+  gallery = [],
   categories = []
 }) => (
   <main>
@@ -73,6 +73,12 @@ export const SinglePostTemplate = ({
             <Content source={body} />
           </div>
 
+          <section className="section">
+      <div className="container">
+        <h2>Our gallery component</h2>
+        <Gallery images={gallery} />
+      </div>
+    </section>
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
@@ -109,6 +115,7 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
+        gallery={post.gallery}
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
