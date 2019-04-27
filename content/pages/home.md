@@ -1,12 +1,13 @@
 ---
 template: HomePage
 slug: ''
-title: 'Horsey.cloud'
-featuredImage: /assets/animal-equine-farm-635499.jpg
+title: 'horsey.cloud'
+featuredImage: /assets/homebage-hero.jpg
+subtitle: ''
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
 ---
-
-# Stuff
+.
+# .
 ##
