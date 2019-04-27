@@ -66,7 +66,7 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                Gallery
               </span>
               <div className="Nav--GroupLinks">
                 <NavLink to="/blog/" className="Nav--GroupLink">
@@ -83,9 +83,8 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div>
-            <NavLink to="/default/">Default</NavLink>
             <NavLink to="/about/">About</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+       
           </div>
           <button
             className="Button-blank Nav--MenuButton"

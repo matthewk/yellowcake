@@ -13,6 +13,16 @@ categories:
 
 **I saw this picture via google and just had to post it**
 
+gallery:
+  - alt: lovely brown
+    image: '/assets/animal-equine-farm-635499.jpg'
+    title: Yellow Rope
+  - alt: umbrellas
+    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
+    title: a bunch of umbrellas
+  - alt: yellow ice cream
+    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
+    title: Yellow Ice Cream
 - - -
 
 I will let you know some more information about this horse once I have done my research.

@@ -7,6 +7,7 @@ import { ChevronLeft } from 'react-feather'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import PageHeader from '../components/PageHeader'
+import Gallery from '../components/Gallery'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
@@ -16,6 +17,7 @@ export const SinglePostTemplate = ({
   featuredImage,
   nextPostURL,
   prevPostURL,
+  galery = [],
   categories = []
 }) => (
   <main>
@@ -124,6 +126,7 @@ export const pageQuery = graphql`
   query SinglePost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
+      ...Gallery
       html
       id
       frontmatter {
