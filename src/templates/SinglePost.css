@@ -53,6 +53,10 @@
   padding: 0 8rem;
 }
 
+.SinglePost--Gallery {
+  padding: 0 8rem;
+}
+
 @media screen and (max-width: 750px) {
   .SinglePost--InnerContent {
     padding: 0;

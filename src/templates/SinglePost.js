@@ -13,12 +13,11 @@ import './SinglePost.css'
 export const SinglePostTemplate = ({
   title,
   date,
-  gallery,
   body,
   featuredImage,
   nextPostURL,
   prevPostURL,
-
+  gallery = [],
   categories = []
 }) => (
   <main>
@@ -27,11 +26,7 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-    <PageHeader
-            title=""
-      
-            backgroundImage={featuredImage}
-          />
+      <PageHeader title="" backgroundImage={featuredImage} />
       <div className="container skinny">
         <Link className="SinglePost--BackButton" to="/blog/">
           <ChevronLeft /> BACK
@@ -74,11 +69,13 @@ export const SinglePostTemplate = ({
             <Content source={body} />
           </div>
 
-          <section className="section">
-      <div className="container">
-        <Gallery images={gallery} />
-      </div>
-    </section>
+          <section className="SinglePost--Gallery">
+            <div className="container">
+              <h2>Our gallery component</h2>
+              <Gallery images={gallery} />
+            </div>
+          </section>
+
           <div className="SinglePost--Pagination">
             {prevPostURL && (
               <Link
