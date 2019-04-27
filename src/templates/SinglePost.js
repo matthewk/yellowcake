@@ -70,12 +70,11 @@ export const SinglePostTemplate = ({
           </div>
 
           {gallery && gallery.length > 0 && (
-          <section className="SinglePost--Gallery">
-            <div className="container">
-              <h2>Our gallery component</h2>
-              <Gallery images={gallery} />
-            </div>
-          </section>
+            <section className="section">
+      <div className="container">
+        <Gallery images={gallery} />
+      </div>
+    </section>
           )}
 
           <div className="SinglePost--Pagination">
