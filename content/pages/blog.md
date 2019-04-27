@@ -3,9 +3,11 @@ template: BlogIndex
 slug: blog
 title: Blog Page
 featuredImage: /assets/homebage-hero.jpg
-subtitle: This is the blog page subtitle.
+subtitle: >-
+  Here I will post about things that I have done, seen and horses that I have
+  ridden.
 meta:
-  description: This is a meta description.
-  title: Blog Page
+  description: ''
+  title: ''
 ---
 
