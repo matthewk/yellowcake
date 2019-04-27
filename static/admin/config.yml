@@ -316,10 +316,10 @@ collections: # A list of collections the CMS should be able to edit
             collection: 'postCategories'
             searchFields: ['title']
             valueField: 'title'
-      - label: Gallery
-        name: gallery
+      - label: 'Gallery'
+        name: 'gallery'
         required: false
-        widget: list
+        widget: 'list'
         fields:
           - { name: image, label: Image, widget: image }
           - { name: alt, label: Alt, widget: string, required: false}
