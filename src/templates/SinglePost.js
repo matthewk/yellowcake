@@ -17,7 +17,7 @@ export const SinglePostTemplate = ({
   featuredImage,
   nextPostURL,
   prevPostURL,
-  gallery = [],
+  gallery,
   categories = []
 }) => (
   <main>
@@ -69,7 +69,7 @@ export const SinglePostTemplate = ({
             <Content source={body} />
           </div>
 
-          {gallery && (
+          {gallery && gallery.length > 0 && (
           <section className="SinglePost--Gallery">
             <div className="container">
               <h2>Our gallery component</h2>
