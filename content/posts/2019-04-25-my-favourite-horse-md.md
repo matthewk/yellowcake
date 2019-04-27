@@ -8,9 +8,12 @@ excerpt: Ride em cowboy
 categories:
   - category: Colours
 gallery:
-  - image: /assets/5.jpg
+  - alt: kk
+    image: /assets/5.jpg
     title: fooo
-  - image: /assets/animal-equine-farm-635499.jpg
+  - alt: jk
+    image: /assets/animal-equine-farm-635499.jpg
+    title: jjj
 ---
 - - -
 
