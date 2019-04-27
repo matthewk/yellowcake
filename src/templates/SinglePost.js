@@ -13,11 +13,12 @@ import './SinglePost.css'
 export const SinglePostTemplate = ({
   title,
   date,
+  gallery,
   body,
   featuredImage,
   nextPostURL,
   prevPostURL,
-  gallery = [],
+
   categories = []
 }) => (
   <main>
@@ -75,7 +76,6 @@ export const SinglePostTemplate = ({
 
           <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -115,7 +115,6 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
-        gallery={post.gallery}
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
