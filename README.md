@@ -13,6 +13,12 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 [Netlify CMS Docs](https://www.netlifycms.org/docs/)  
 [Netlify CMS Repo](https://github.com/netlify/netlify-cms)
 
+## Analytics
+
+https://analytics.google.com/analytics/web/?authuser=0#/report-home/a144385025w205896340p198951482
+
+Google Analytics ID: UA-144385025-1
+
 ## Get going
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
