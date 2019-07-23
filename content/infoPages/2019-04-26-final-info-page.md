@@ -2,9 +2,8 @@
 template: DefaultPage
 slug: about
 title: About me
-featuredImage: >-
-  https://ucarecdn.com/bafb71d8-81e8-40f5-8fe4-95638ff74944/-/crop/1199x720/0,0/-/preview/
+featuredImage: /assets/animals-brown-day-1493219.jpg
 meta:
   title: final info
 ---
-oh yess
+.

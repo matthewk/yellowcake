@@ -17,9 +17,9 @@ export const ComponentsPageTemplate = ({
   section2,
   videoPoster,
   video,
+  gallery,
   accordion,
-  body,
-  gallery
+  body
 }) => (
   <main>
     <PageHeader

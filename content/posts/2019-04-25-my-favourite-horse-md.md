@@ -9,11 +9,15 @@ categories:
   - category: Colours
 gallery:
   - alt: kk
-    image: /assets/5.jpg
-    title: fooo
-  - alt: jk
-    image: /assets/animal-equine-farm-635499.jpg
-    title: jjj
+    image: /assets/4.jpg
+    title: ''
+  - alt: hoo
+    image: /assets/homebage-hero.jpg
+  - alt: lll
+    image: /assets/animals-cowboy-equine-159889.jpg
+meta:
+  description: This is a meta description.
+  title: Components Page
 ---
 - - -
 
